@@ -1,9 +1,6 @@
 <?php
 session_start();
-if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
-    header('Location: login.php');
-    exit();
-}
+
 ?>
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
@@ -66,28 +63,18 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
       <div class="text">Perfil de Usuario</div>
       <div>
         <div class="text">Nombre:</div>
-        <input type="text">
       </div>
       <div>
         <div class="text">Usuario:</div>
-        <input type="text">
       </div>
       <div>
         <div class="text">Correo electronico:</div>
-        <input type="text">
       </div>
       <div>
         <div class="text">Matricula:</div>
-        <input type="text">
       </div>
       <div>
-        <!-- Boton para mandar los nuevos cambios de usuario -->
-        <button>Editar</button>
-      </div>
-      <div class="text">Nombre:</div>
-      <div class="text">Usuario:</div>
-      <div class="text">Correo electronico:</div>
-      <div class="text">Matricula</div>
+      
   </section>
   <script>
   let sidebar = document.querySelector(".sidebar");
