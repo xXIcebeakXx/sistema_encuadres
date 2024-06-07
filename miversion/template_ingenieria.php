@@ -498,7 +498,7 @@ $mat = $materia ? $materia->rowCount() : 0;
                     <td>6</td>
                     <td>7</td>
                     <td>8</td>
-                    <td>Examenes Ordinarios</td>
+                    <td><input type="text" name="block3" required></td>
                     <td></td>
                     <td></td>
                 </tr>
@@ -537,12 +537,44 @@ $mat = $materia ? $materia->rowCount() : 0;
             </div>
         </div>
     </div>
+    <table class="extra-table">
+        <tr>
+            <td colspan="4">APORTACIÓN DE LA ASIGNATURA A LOS ATRIBUTOS DEL EGRESADO</td>
+        </tr>
+        <tr>
+            <td class="highlight2"></td>
+            <td class="highlight2">DESCRIPCIÓN:</td>
+            <td class="highlight2">NIVEL DE APORTACION</td>
+            <td class="highlight2">INSTRUMENTO DE EVALUACION</td>
+        </tr>
+        <tr>
+            <td class="highlight2">Atributo de Egreso</td>
+            <td><input type="text" name="descripcion_1" required></td>
+            <td><input type="text" name="nivel_1" required></td>
+            <td><input type="text" name="instrumento_1" required></td>
+        </tr>
+        <tr>
+            <td class="highlight2">Atributo de Egreso</td>
+            <td><input type="text" name="descripcion_2" required></td>
+            <td><input type="text" name="nivel_2" required></td>
+            <td><input type="text" name="instrumento_2" required></td>
+        </tr>
+        <tr>
+            <td class="highlight2">Atributo de Egreso</td>
+            <td><input type="text" name="descripcion_3" required></td>
+            <td><input type="text" name="nivel_3" required></td>
+            <td><input type="text" name="instrumento_3" required></td>
+        </tr>
+        <tr>
+            <td colspan="4">Nota: El profesor explicó al grupo como se relacionan los contenidos de esta unidad de aprendizaje con los atributos de egreso</td>
+        </tr>
+    </table>
     <div class="firma-container">
         <div class="firma-box">Firma del docente</div>
         <div class="firma-box">Nombre y Firma del alumno representante</div>
     </div>
     <div class="boton-container">
-        <a href="pdfgen2.php">
+        <a href="pdfgen.php">
         <button>Descargar</button>
          </a>
     </div>
