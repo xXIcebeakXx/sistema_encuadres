@@ -207,15 +207,15 @@ $mat = $materia ? $materia->rowCount() : 0;
             </tr>
             <tr>
                 <td colspan="2">SEMESTRE EN EL QUE SE IMPARTE:</td>
-                <td colspan="3"><input type="text" name="semestre"></td>
+                <td colspan="3"><input type="text" name="semestre" required></td>
             </tr>
             <tr>
                 <td>Carrera:</td>
-                <td><input type="text" name="carrera"></td>
+                <td><input type="text" name="carrera" required></td>
                 <td>Grupo:</td>
-                <td colspan="2"><input type="text" name="grupo"></td>
+                <td colspan="2"><input type="text" name="grupo" required></td>
                 <td>TIPO DE CURSO:</td>
-                <td><input type="text" name="tipo_curso"></td>
+                <td><input type="text" name="tipo_curso" required></td>
             </tr>
         </table>
         <table>
@@ -246,7 +246,7 @@ $mat = $materia ? $materia->rowCount() : 0;
                     <td>1</td>
                     <td>2</td>
                     <td>3</td>
-                    <td><input type="text" name="tema_1"></td>
+                    <td><input type="text" name="tema_1" required></td>
                     <td><input type="text" name="practicas_1"></td>
                     <td><input type="text" name="observaciones_1"></td>
                 </tr>
@@ -260,7 +260,7 @@ $mat = $materia ? $materia->rowCount() : 0;
                     <td>8</td>
                     <td>9</td>
                     <td>10</td>
-                    <td><input type="text" name="tema_2"></td>
+                    <td><input type="text" name="tema_2" required></td>
                     <td><input type="text" name="practicas_2"></td>
                     <td><input type="text" name="observaciones_2"></td>
                 </tr>
@@ -274,7 +274,7 @@ $mat = $materia ? $materia->rowCount() : 0;
                     <td>15</td>
                     <td>16</td>
                     <td>17</td>
-                    <td><input type="text" name="tema_3"></td>
+                    <td><input type="text" name="tema_3" required></td>
                     <td><input type="text" name="practicas_3"></td>
                     <td><input type="text" name="observaciones_3"></td>
                 </tr>
@@ -288,7 +288,7 @@ $mat = $materia ? $materia->rowCount() : 0;
                     <td>22</td>
                     <td>23</td>
                     <td>24</td>
-                    <td><input type="text" name="tema_4"></td>
+                    <td><input type="text" name="tema_4" required></td>
                     <td><input type="text" name="practicas_4"></td>
                     <td><input type="text" name="observaciones_4"></td>
                 </tr>
@@ -302,7 +302,7 @@ $mat = $materia ? $materia->rowCount() : 0;
                     <td>29</td>
                     <td>1</td>
                     <td>2</td>
-                    <td><input type="text" name="tema_5"></td>
+                    <td><input type="text" name="tema_5" required></td>
                     <td><input type="text" name="practicas_5"></td>
                     <td><input type="text" name="observaciones_5"></td>
                 </tr>
@@ -316,7 +316,7 @@ $mat = $materia ? $materia->rowCount() : 0;
                     <td>7</td>
                     <td>8</td>
                     <td>9</td>
-                    <td><input type="text" name="tema_6"></td>
+                    <td><input type="text" name="tema_6" required></td>
                     <td><input type="text" name="practicas_6"></td>
                     <td><input type="text" name="observaciones_6"></td>
                 </tr>
@@ -330,7 +330,7 @@ $mat = $materia ? $materia->rowCount() : 0;
                     <td>14</td>
                     <td>15</td>
                     <td>16</td>
-                    <td><input type="text" name="tema_7"></td>
+                    <td><input type="text" name="tema_7" required></td>
                     <td><input type="text" name="practicas_7"></td>
                     <td><input type="text" name="observaciones_7"></td>
                 </tr>
@@ -344,7 +344,7 @@ $mat = $materia ? $materia->rowCount() : 0;
                     <td>21</td>
                     <td>22</td>
                     <td>23</td>
-                    <td><input type="text" name="tema_8"></td>
+                    <td><input type="text" name="tema_8" required></td>
                     <td><input type="text" name="practicas_8"></td>
                     <td><input type="text" name="observaciones_8"></td>
                 </tr>
@@ -358,7 +358,7 @@ $mat = $materia ? $materia->rowCount() : 0;
                     <td>28</td>
                     <td>29</td>
                     <td>30</td>
-                    <td>Vacaciones Semana Santa</td>
+                    <td><input type="text" name="block1" required></td>
                     <td></td>
                     <td></td>
                 </tr>
@@ -372,7 +372,7 @@ $mat = $materia ? $materia->rowCount() : 0;
                     <td>4</td>
                     <td>5</td>
                     <td>6</td>
-                    <td><input type="text" name="tema_10"></td>
+                    <td><input type="text" name="tema_10" required></td>
                     <td><input type="text" name="practicas_10"></td>
                     <td><input type="text" name="observaciones_10"></td>
                 </tr>
@@ -386,7 +386,7 @@ $mat = $materia ? $materia->rowCount() : 0;
                     <td>11</td>
                     <td>12</td>
                     <td>13</td>
-                    <td><input type="text" name="tema_11"></td>
+                    <td><input type="text" name="tema_11" required></td>
                     <td><input type="text" name="practicas_11"></td>
                     <td><input type="text" name="observaciones_11"></td>
                 </tr>
@@ -400,7 +400,7 @@ $mat = $materia ? $materia->rowCount() : 0;
                     <td>18</td>
                     <td>19</td>
                     <td>20</td>
-                    <td>FIAD</td>
+                    <td><input type="text" name="block2" required></td>
                     <td></td>
                     <td></td>
                 </tr>
@@ -414,7 +414,7 @@ $mat = $materia ? $materia->rowCount() : 0;
                     <td>25</td>
                     <td>26</td>
                     <td>27</td>
-                    <td><input type="text" name="tema_13"></td>
+                    <td><input type="text" name="tema_13" required></td>
                     <td><input type="text" name="practicas_13"></td>
                     <td><input type="text" name="observaciones_13"></td>
                 </tr>
@@ -428,7 +428,7 @@ $mat = $materia ? $materia->rowCount() : 0;
                     <td>1</td>
                     <td>2</td>
                     <td>3</td>
-                    <td><input type="text" name="tema_14"></td>
+                    <td><input type="text" name="tema_14" required></td>
                     <td><input type="text" name="practicas_14"></td>
                     <td><input type="text" name="observaciones_14"></td>
                 </tr>
@@ -442,7 +442,7 @@ $mat = $materia ? $materia->rowCount() : 0;
                     <td>9</td>
                     <td>10</td>
                     <td>11</td>
-                    <td><input type="text" name="tema_15"></td>
+                    <td><input type="text" name="tema_15" required></td>
                     <td><input type="text" name="practicas_15"></td>
                     <td><input type="text" name="observaciones_15"></td>
                 </tr>
@@ -456,7 +456,7 @@ $mat = $materia ? $materia->rowCount() : 0;
                     <td>16</td>
                     <td>17</td>
                     <td>18</td>
-                    <td><input type="text" name="tema_16"></td>
+                    <td><input type="text" name="tema_16" required></td>
                     <td><input type="text" name="practicas_16"></td>
                     <td><input type="text" name="observaciones_16"></td>
                 </tr>
@@ -470,7 +470,7 @@ $mat = $materia ? $materia->rowCount() : 0;
                     <td>30</td>
                     <td>31</td>
                     <td>1</td>
-                    <td><input type="text" name="tema_17"></td>
+                    <td><input type="text" name="tema_17" required></td>
                     <td><input type="text" name="practicas_17"></td>
                     <td><input type="text" name="observaciones_17"></td>
                 </tr>
@@ -484,7 +484,7 @@ $mat = $materia ? $materia->rowCount() : 0;
                     <td>6</td>
                     <td>7</td>
                     <td>8</td>
-                    <td><input type="text" name="tema_18"></td>
+                    <td><input type="text" name="tema_18" required></td>
                     <td><input type="text" name="practicas_18"></td>
                     <td><input type="text" name="observaciones_18"></td>
                 </tr>
@@ -512,16 +512,16 @@ $mat = $materia ? $materia->rowCount() : 0;
                         <td>ATRIBUTO QUE EVALUA:</td>
                     </tr>
                     <tr>
-                        <td><input type="text" name="criterio_1"></td>
-                        <td><input type="text" name="atributo_1"></td>
+                        <td><input type="text" name="criterio_1" required></td>
+                        <td><input type="text" name="atributo_1" required></td>
                     </tr>
                     <tr>
-                        <td><input type="text" name="criterio_2"></td>
-                        <td><input type="text" name="atributo_2"></td>
+                        <td><input type="text" name="criterio_2" required></td>
+                        <td><input type="text" name="atributo_2" required></td>
                     </tr>
                     <tr>
-                        <td><input type="text" name="criterio_3"></td>
-                        <td><input type="text" name="atributo_3"></td>
+                        <td><input type="text" name="criterio_3" required></td>
+                        <td><input type="text" name="atributo_3" required></td>
                     </tr>
                 </table>
             </div>
@@ -531,7 +531,7 @@ $mat = $materia ? $materia->rowCount() : 0;
                         <td>CRITERIOS DE ACREDITACIÓN (Incluir la manera de cómo se acreditará el curso):</td>
                     </tr>
                     <tr>
-                        <td><input type="text" name="acreditacion"></td>
+                        <td><input type="text" name="acreditacion" required></td>
                     </tr>
                 </table>
             </div>
