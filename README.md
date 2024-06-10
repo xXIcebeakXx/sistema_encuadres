@@ -4,12 +4,12 @@ Repositorio público para el desarrollo de un sistema de encuadres de universida
 # Descripcion de algunos archivos
 
 # HTML
--- Son los formularios para llenar con los temas, prácticas, observaciones de cada semana
-crearencuadre.html
-encuadre2.html
--- Son los templates que utiliza DOMPDF como referencia para generar el PDF siguiendo las pautas anteriormente establecidas para el encuadre de Ing. como para Arq.
-template.html
-template_arqui.html
+-- Son los formularios para llenar con los temas, prácticas, observaciones de cada semana </br>
+crearencuadre.html</br>
+encuadre2.html</br>
+-- Son los templates que utiliza DOMPDF como referencia para generar el PDF siguiendo las pautas anteriormente establecidas para el encuadre de Ing. como para Arq.</br>
+template.html</br>
+template_arqui.html</br>
 
 # PHP
 -- Script php que se encarga de tomar lo capturado en cualquiera de los formularios y generar su pdf
