@@ -12,9 +12,9 @@ template.html</br>
 template_arqui.html</br>
 
 # PHP
--- Script php que se encarga de tomar lo capturado en cualquiera de los formularios y generar su pdf
-phpgen2.php
---  Script php que se encarga de redireccionar al tipo de formulario segun la carrera (arq o ing)
-redirex.php
--- Script php que se encarga de re-establecer la contraseña en caso de olvidarla (no implementada)
+-- Script php que se encarga de tomar lo capturado en cualquiera de los formularios y generar su pdf</br>
+phpgen2.php</br>
+--  Script php que se encarga de redireccionar al tipo de formulario segun la carrera (arq o ing)</br>
+redirex.php</br>
+-- Script php que se encarga de re-establecer la contraseña en caso de olvidarla (no implementada)</br>
 pwdrequest.php
